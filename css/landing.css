@@ -1,0 +1,133 @@
+.nav a {
+	border-left: 1px solid gray;
+}
+
+.nav a:first-child {
+	border-left: none;
+}
+
+.hero-btn {
+	background-color: lightgray;
+	color: rgb(52,58,64) !important;
+	padding: 1%;
+	border-radius: 10px;
+}
+
+
+/* Blog Posts */
+
+.blogTitleLink {
+	color: rgb(52,58,64);
+}
+
+.list-unstyled li a img{
+	width: 10%;
+	margin: 1%;
+}
+
+.inlineTitle {
+	font-size: 1.3em;
+}
+
+.blog-post {
+	max-height:500px;
+	overflow-y: scroll;
+	box-shadow: 0 0px 10px 10px rgba(145,145,145,.1);
+	padding:1%;
+	border-radius: 20px 0px ;
+}
+
+
+.blog-img {
+	width: 100%;
+	border-radius: 20px 0 0 0 ;
+}
+
+.h4-CTA {
+	display: inline-block;
+}
+
+
+/* Feedback */
+
+.feedback-container {
+	padding: 3%;
+	box-shadow: 0 0 4px 1px lightgray;
+	border-radius: 10px;
+}
+
+
+/* To top button */
+
+.toTopBtn {
+	width: 5%;
+	height: 9%;
+	background-color: white;
+	box-shadow: 0 0 3px 1px lightgray;
+	position: fixed;
+	top: 80%;
+	left: 85%;
+	border-radius: 10px;
+	padding: 1% 2%;
+	text-align: center;
+	background-color: rgba(52,58,64, .5);
+	color: white;
+	display: none;
+}
+
+.toTopBtn:hover {
+	background-color: rgb(52,58,64);
+	color: white;
+	font-size: 120%;
+	cursor: pointer;
+}
+
+.toTopBtn span {
+	margin: auto 0;
+}
+
+
+/* Footer */
+
+.blog-footer {
+	background-color: rgb(52,58,64);
+	margin-top: 5%;
+	padding: 2%;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+
+.blog-footer div a{
+	color: white;
+}
+
+
+
+
+/*
+
+Mobile Device Section
+
+ */
+
+@media only screen and (max-width: 500px) {
+
+	.logo-div a img{
+		width: 100% !important;
+	}
+
+	.link-to-site {
+		display: none;
+	}
+
+  .brand-logo {
+    display: none;
+  }
+
+	#toTopBtn {
+		padding: 20px ;
+		padding-right: 28px;
+		left: 80%;
+	}
+}

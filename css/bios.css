@@ -1,0 +1,9 @@
+.team-bio {
+	width:40%;
+}
+
+.team-bio-img {
+	width:65%;
+	max-height: 330px;
+	border-radius:50%;
+}
