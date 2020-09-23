@@ -47,6 +47,11 @@
 	display: inline-block;
 }
 
+.blog-post p img {
+	width: 100%;
+
+}
+
 
 /* Feedback */
 
