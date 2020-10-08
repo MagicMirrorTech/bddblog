@@ -49,7 +49,10 @@
 
 .blog-post p img {
 	width: 100%;
+}
 
+.inlineImg {
+	width: 20%;
 }
 
 
